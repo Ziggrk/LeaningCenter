@@ -1,6 +1,7 @@
 package com.acme.leaningcenter.platform.learning.domain.model;
 
 import com.acme.leaningcenter.platform.shared.domain.model.AuditModel;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -16,4 +17,10 @@ public class Criterion  extends AuditModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    //Relationships
+    @ManyToOne(fetch = FetchType.EAGER, optional = false)
+    @JoinColumn(name="skill_id", nullable = false)
+    @JsonIgnore
+    private Skill skill;
 }
