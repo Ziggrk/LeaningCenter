@@ -1,4 +1,4 @@
-package com.acme.leaningcenter.platform.shared.mapping;
+package com.acme.learning.platform.shared.mapping;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

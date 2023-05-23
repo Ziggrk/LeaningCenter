@@ -1,4 +1,4 @@
-package com.acme.leaningcenter;
+package com.acme.learning;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

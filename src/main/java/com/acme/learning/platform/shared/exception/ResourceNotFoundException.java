@@ -1,4 +1,4 @@
-package com.acme.leaningcenter.platform.shared.exception;
+package com.acme.learning.platform.shared.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

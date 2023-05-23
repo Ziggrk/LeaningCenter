@@ -1,10 +1,9 @@
-package com.acme.leaningcenter.platform.shared.exception;
+package com.acme.learning.platform.shared.exception;
 
 import jakarta.validation.ConstraintViolation;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-import javax.swing.*;
 import java.util.Set;
 import java.util.stream.Collectors;
 

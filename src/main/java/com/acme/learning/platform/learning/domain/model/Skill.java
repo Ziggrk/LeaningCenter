@@ -1,6 +1,6 @@
-package com.acme.leaningcenter.platform.learning.domain.model;
+package com.acme.learning.platform.learning.domain.model;
 
-import com.acme.leaningcenter.platform.shared.domain.model.AuditModel;
+import com.acme.learning.platform.shared.domain.model.AuditModel;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

@@ -1,4 +1,4 @@
-package com.acme.leaningcenter.platform.shared.domain.service;
+package com.acme.learning.platform.shared.domain.service;
 import lombok.Getter;
 import org.apache.logging.log4j.util.Strings;
 

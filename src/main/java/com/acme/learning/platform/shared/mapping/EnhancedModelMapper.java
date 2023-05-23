@@ -1,4 +1,4 @@
-package com.acme.leaningcenter.platform.shared.mapping;
+package com.acme.learning.platform.shared.mapping;
 
 import org.modelmapper.ModelMapper;
 
