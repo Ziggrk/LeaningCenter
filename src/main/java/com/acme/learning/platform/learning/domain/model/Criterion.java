@@ -1,5 +1,7 @@
 package com.acme.learning.platform.learning.domain.model;
 
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import com.acme.learning.platform.shared.domain.model.AuditModel;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
@@ -13,10 +15,14 @@ import lombok.*;
 @AllArgsConstructor
 @Table(name = "criteria") // se especifica el nombre para tener una convencion correcta
 
-public class Criterion  extends AuditModel {
+public class Criterion extends AuditModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @NotNull
+    @NotBlank
+    private String name;
 
     //Relationships
     @ManyToOne(fetch = FetchType.EAGER, optional = false)
